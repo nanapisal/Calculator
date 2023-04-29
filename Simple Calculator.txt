@@ -1,0 +1,31 @@
+#Simple Calculator
+'''
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+'''
+
+num1=int(input("Enter the First Number = "))
+ch=input("Enter your choice = +,-,*,/ = ")
+num2=int(input("Enter the Second Number = "))
+
+if ch=="+":
+    print("Addition of two number = ",(num1+num2))
+elif ch=="-":
+    print("Subtraction of two number = ",(num1-num2))
+elif ch=="*":
+    print("Multiplication of two number = ",(num1*num2))
+elif ch=="/":
+    print("Division of two number",(num1/num2))
+else:
+    print("Operation is Invalid")
+
+
+
+
+
+
+
+
+    
